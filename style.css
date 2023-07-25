@@ -76,9 +76,67 @@ body {
 }
 
 .page1 video {
-  width: 60%;
+  width: 40%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
   margin-top: 8vw;
+}
+
+.page2 {
+  min-height: 80vh;
+  width: 100vw;
+  padding: 100px 0;
+  padding: 5vw;
+  border-bottom: 2px solid #818181;
+}
+
+.page2 h1 {
+  font-size: 5vw;
+  font-weight: 500;
+  font-family: PP Mori;
+  color: #111;
+}
+
+.page2-container {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page2-left {
+  width: 35%;
+}
+
+.page2-right {
+  width: 24%;
+}
+
+.page2-left h2 {
+  font-size: 3.5vw;
+  font-weight: 300;
+  color: #111;
+  line-height: 4vw;
+}
+
+.page2-right p {
+  font-size: 1.5vw;
+  color: #111;
+}
+
+.page2-right button {
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  padding: 4px 0;
+  background-color: #edbfff;
+  color: #111;
+  margin-top: 20px;
+}
+
+.page3{
+  min-height: 100vh;
+  width: 100vw;
 }

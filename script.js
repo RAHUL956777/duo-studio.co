@@ -40,7 +40,7 @@ let tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
     scroller: ".main",
-    markers: true,
+    // markers: true,
     start: "top 27%",
     end: "start 0",
     scrub: 3,
@@ -64,6 +64,25 @@ tl.to(
   "anim"
 );
 
-tl.to(".page1 video",{
-    width:"90%"
-},"anim")
+tl.to(
+  ".page1 video",
+  {
+    width: "85%",
+  },
+  "anim"
+);
+
+let tl2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".page1 h1",
+    scroller: ".main",
+    // markers: true,
+    start: "top -115%",
+    end: "top 130",
+    scrub: 3,
+  },
+});
+
+tl2.to(".main", {
+  backgroundColor: "#FFF",
+});
